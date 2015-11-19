@@ -27,12 +27,12 @@ namespace spec
 
 		TEST_METHOD(elder)
 		{
-			Assert::AreEqual(1, isOlder("15-07-1992", "15-07-2000"), L"isOlder: Person one is elder", LINE_INFO());
-			Assert::AreEqual(2, isOlder("29-02-2004", "29-02-2000"), L"isOlder: Person two is elder", LINE_INFO());
-			Assert::AreEqual(1, isOlder("15-05-2000", "15-07-2000"), L"isOlder: Person one is elder", LINE_INFO());
-			Assert::AreEqual(2, isOlder("29-06-2000", "29-02-2000"), L"isOlder: Person two is elder", LINE_INFO());
-			Assert::AreEqual(1, isOlder("11-07-2000", "15-07-2000"), L"isOlder: Person one is elder", LINE_INFO());
-			Assert::AreEqual(2, isOlder("29-02-2000", "27-02-2000"), L"isOlder: Person two is elder", LINE_INFO());
+			Assert::AreEqual(1, isOlder("15-07-1992", "15-07-2000"), L"isOlder1: Person one is elder", LINE_INFO());
+			Assert::AreEqual(2, isOlder("29-02-2004", "29-02-2000"), L"isOlder2: Person two is elder", LINE_INFO());
+			Assert::AreEqual(1, isOlder("15-05-2000", "15-07-2000"), L"isOlder3: Person one is elder", LINE_INFO());
+			Assert::AreEqual(2, isOlder("29-06-2000", "29-02-2000"), L"isOlder4: Person two is elder", LINE_INFO());
+			Assert::AreEqual(1, isOlder("11-07-2000", "15-07-2000"), L"isOlder5: Person one is elder", LINE_INFO());
+			Assert::AreEqual(2, isOlder("29-02-2000", "27-02-2000"), L"isOlder6: Person two is elder", LINE_INFO());
 		}
 	};
 }
